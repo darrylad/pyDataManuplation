@@ -23,13 +23,13 @@ pip install -r requirements.txt
 ```
 This will install the required packages into your virtual environment.
 
-### Run
+### General Usage
 
 ```bash
 python <PROJECT_MAIN_FILE> <ARGUMENTS>
 ```
 
-For more details, see the README.md file in each project folder.
+For more details, see the `README.md` file in each project folder.
 
 ### Deactivate venv
 

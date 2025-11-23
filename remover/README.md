@@ -1,5 +1,7 @@
 # Remover
 
+A utility that lets you graphically select and remove parts of a time-series data (csv). It can then show you the new FFT curves and the original FFT curves for your comparision.
+
 Go to the project root directory in Terminal and run:
 
 ### Setup Python venv

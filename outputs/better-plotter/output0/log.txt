@@ -1,0 +1,10 @@
+Using data path: /Users/darrylad/Darryl/Projects/datapy/remover/outputs/10 um/10 um_merged_cleaned_20251104_192159.csv
+Logging to: output/log.txt
+
+STEP 1: LOADING DATA
+WARNING: Condition directory not found: Healthy
+WARNING: Condition directory not found: 10 um
+WARNING: Condition directory not found: 45 um
+WARNING: Condition directory not found: 75 um
+WARNING: Condition directory not found: 100 um
+ERROR: ❌ No data loaded! Check your data path and condition names.

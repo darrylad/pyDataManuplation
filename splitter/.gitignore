@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+env/
+venv/
+*.pyc
+*.pyo
+*.pyd
+outputs/
+.DS_Store
+outputs 0/
+10 um_merged_cleaned_20251104_192159_cleaned_20251112_134107.csv

@@ -1,0 +1,10 @@
+.venv/
+outputs/
+*.log
+*.tmp
+.DS_Store
+__pycache__/
+*.pyc
+10 um_merged.csv
+.vscode/
+build/

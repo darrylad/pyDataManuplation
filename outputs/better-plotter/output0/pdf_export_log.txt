@@ -1,0 +1,200 @@
+📄 PDF EXPORT TOOL (Matplotlib Backend)
+
+Using data path: /Users/darrylad/Darryl/Projects/datapy/remover/outputs
+Logging to: output/pdf_export_log.txt
+
+Configuration:
+  Figure size: 20" × 12"
+  DPI: 150
+  Downsampling: Every 10 points
+  Rasterized: True
+STEP 1: LOADING DATA
+INFO: Loading condition: Healthy
+INFO: Found 1 CSV files in Healthy
+INFO:   Loading: Healthy_merged_cleaned_20251104_194856.csv
+INFO:   Total data points: 538562
+INFO:   Time range: 0.0000 to 326.0825
+INFO: Loading condition: 10 um
+INFO: Found 1 CSV files in 10 um
+INFO:   Loading: 10 um_merged_cleaned_20251104_192159.csv
+INFO:   Total data points: 1159489
+INFO:   Time range: 0.0006 to 702.0350
+INFO: Loading condition: 45 um
+INFO: Found 1 CSV files in 45 um
+INFO:   Loading: 45 um_merged_cleaned_20251104_193119.csv
+INFO:   Total data points: 786319
+INFO:   Time range: 0.0012 to 476.0922
+INFO: Loading condition: 75 um
+INFO: Found 1 CSV files in 75 um
+INFO:   Loading: 75 um_merged_cleaned_20251104_193632.csv
+INFO:   Total data points: 860084
+INFO:   Time range: 0.0012 to 520.7546
+INFO: Loading condition: 100 um
+INFO: Found 1 CSV files in 100 um
+INFO:   Loading: 100 um_merged_cleaned_20251104_194227.csv
+INFO:   Total data points: 694339
+INFO:   Time range: 0.0018 to 420.4018
+
+✅ Loaded 5 conditions
+STEP 2: COMPUTING FREQUENCY SPECTRA
+
+================================================================================
+COMPUTING FREQUENCY SPECTRA
+================================================================================
+
+Processing: Healthy
+------------------------------------------------------------
+INFO:   Calculated sampling rate: 1651.61 Hz
+INFO:   Average time step: 0.6055 ms
+INFO:   Nyquist frequency: 825.80 Hz
+INFO:   Computing FFT for X axis...
+INFO:     Signal length: 538562 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 667.74 Hz
+INFO:     Peak magnitude: 52.5446
+INFO:   Computing FFT for Y axis...
+INFO:     Signal length: 538562 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 667.74 Hz
+INFO:     Peak magnitude: 225.1113
+INFO:   Computing FFT for Z axis...
+INFO:     Signal length: 538562 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 1.61 Hz
+INFO:     Peak magnitude: 665.8845
+
+Processing: 10 um
+------------------------------------------------------------
+INFO:   Calculated sampling rate: 1651.61 Hz
+INFO:   Average time step: 0.6055 ms
+INFO:   Nyquist frequency: 825.81 Hz
+INFO:   Computing FFT for X axis...
+INFO:     Signal length: 1159489 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 667.74 Hz
+INFO:     Peak magnitude: 77.0128
+INFO:   Computing FFT for Y axis...
+INFO:     Signal length: 1159489 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 667.74 Hz
+INFO:     Peak magnitude: 232.9401
+INFO:   Computing FFT for Z axis...
+INFO:     Signal length: 1159489 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 667.74 Hz
+INFO:     Peak magnitude: 84.5366
+
+Processing: 45 um
+------------------------------------------------------------
+INFO:   Calculated sampling rate: 1651.61 Hz
+INFO:   Average time step: 0.6055 ms
+INFO:   Nyquist frequency: 825.81 Hz
+INFO:   Computing FFT for X axis...
+INFO:     Signal length: 786319 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 667.74 Hz
+INFO:     Peak magnitude: 81.6398
+INFO:   Computing FFT for Y axis...
+INFO:     Signal length: 786319 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 667.74 Hz
+INFO:     Peak magnitude: 104.0982
+INFO:   Computing FFT for Z axis...
+INFO:     Signal length: 786319 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 1.61 Hz
+INFO:     Peak magnitude: 171.8673
+
+Processing: 75 um
+------------------------------------------------------------
+INFO:   Calculated sampling rate: 1651.61 Hz
+INFO:   Average time step: 0.6055 ms
+INFO:   Nyquist frequency: 825.81 Hz
+INFO:   Computing FFT for X axis...
+INFO:     Signal length: 860084 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 445.16 Hz
+INFO:     Peak magnitude: 73.7224
+INFO:   Computing FFT for Y axis...
+INFO:     Signal length: 860084 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 667.74 Hz
+INFO:     Peak magnitude: 157.7484
+INFO:   Computing FFT for Z axis...
+INFO:     Signal length: 860084 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 667.74 Hz
+INFO:     Peak magnitude: 60.9351
+
+Processing: 100 um
+------------------------------------------------------------
+INFO:   Calculated sampling rate: 1651.61 Hz
+INFO:   Average time step: 0.6055 ms
+INFO:   Nyquist frequency: 825.81 Hz
+INFO:   Computing FFT for X axis...
+INFO:     Signal length: 694339 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 446.77 Hz
+INFO:     Peak magnitude: 81.6164
+INFO:   Computing FFT for Y axis...
+INFO:     Signal length: 694339 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 670.97 Hz
+INFO:     Peak magnitude: 130.5838
+INFO:   Computing FFT for Z axis...
+INFO:     Signal length: 694339 samples
+INFO:     Window size: 1024 samples
+INFO:     Overlap: 512 samples
+INFO:     Peak frequency: 1.61 Hz
+INFO:     Peak magnitude: 310.7060
+INFO: Frequency display range: 0 - 825.80 Hz
+
+✅ Computed spectra for 5 conditions
+STEP 3: GENERATING TIME-DOMAIN PDF
+
+📊 Creating time-domain PDF with Matplotlib...
+  Downsampling data (factor: 10)...
+INFO:   Downsampled: 538,562 → 53,857 points (10.0%)
+INFO:   Downsampled: 1,159,489 → 115,949 points (10.0%)
+INFO:   Downsampled: 786,319 → 78,632 points (10.0%)
+INFO:   Downsampled: 860,084 → 86,009 points (10.0%)
+INFO:   Downsampled: 694,339 → 69,434 points (10.0%)
+  Calculating global ranges...
+  Creating figure: 5 rows × 3 columns
+  Plotting data...
+  Saving to: output/time_domain.pdf
+✅ Time-domain PDF saved successfully!
+STEP 4: GENERATING FREQUENCY-DOMAIN PDF
+
+📊 Creating frequency-domain PDF with Matplotlib...
+  Calculating global frequency ranges...
+  Creating figure: 5 rows × 3 columns
+  Plotting frequency spectra...
+  Saving to: output/frequency_domain.pdf
+✅ Frequency-domain PDF saved successfully!
+PDF EXPORT COMPLETE
+
+Generated files:
+  📈 Time Domain:      output/time_domain.pdf
+  📊 Frequency Domain: output/frequency_domain.pdf
+  📝 Log File:         output/pdf_export_log.txt
+
+File specifications:
+  Format: PDF (rasterized)
+  Resolution: 150 DPI
+  Size: 20" × 12"
+  Optimized for: Widescreen displays

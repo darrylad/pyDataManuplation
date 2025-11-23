@@ -1,0 +1,6 @@
+__pycache__
+.venv
+.vscode
+.DS_Store
+output
+DO200B Ex1.csv

@@ -1,0 +1,6 @@
+.venv/
+*.vscode/
+noisemaker/I am working on a project where there is a swash p.md
+.DS_Store
+*__pycache__/
+*.pyc

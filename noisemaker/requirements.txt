@@ -1,0 +1,10 @@
+# Requirements for Vibration Data Noise Addition Tool
+
+# Core numerical computing
+numpy>=1.21.0
+
+# Data manipulation
+pandas>=1.3.0
+
+# Scientific computing and signal processing
+scipy>=1.7.0

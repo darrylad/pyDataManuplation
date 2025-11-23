@@ -47,8 +47,8 @@ python main.py /path/to/folder --scales 128 --width 256 --height 256
 
 - `path` (required): Path to CSV file or directory
 - `--scales N`: Number of wavelet scales (default: 128)
-- `--width PIXELS`: Output image width (default: 1024)
-- `--height PIXELS`: Output image height (default: 512)
+- `--width PIXELS`: Output image width (default: 256)
+- `--height PIXELS`: Output image height (default: 256)
 - `--version`: Show version information
 
 ## Requirements

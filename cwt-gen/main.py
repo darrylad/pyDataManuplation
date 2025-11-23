@@ -268,7 +268,7 @@ For more information, visit: https://github.com/yourusername/cwt-gen
     parser.add_argument(
         '--width',
         type=int,
-        default=1024,
+        default=256,
         metavar='PIXELS',
         help='Output image width in pixels (default: 1024)'
     )
@@ -276,7 +276,7 @@ For more information, visit: https://github.com/yourusername/cwt-gen
     parser.add_argument(
         '--height',
         type=int,
-        default=512,
+        default=256,
         metavar='PIXELS',
         help='Output image height in pixels (default: 512)'
     )

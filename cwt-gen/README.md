@@ -34,13 +34,13 @@ python main.py /path/to/folder
 
 ```bash
 # Custom image resolution
-python main.py data.csv --width 2048 --height 1024
+python main.py data.csv --width 256 --height 256
 
 # Custom frequency resolution (more scales = higher frequency detail)
-python main.py data.csv --scales 256
+python main.py data.csv --scales 128
 
 # All custom parameters
-python main.py /path/to/folder --scales 256 --width 2048 --height 1024
+python main.py /path/to/folder --scales 128 --width 256 --height 256
 ```
 
 ### Arguments

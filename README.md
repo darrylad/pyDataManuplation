@@ -11,7 +11,7 @@ Go to the root directory of your desired project in Terminal and run:
 
 ```bash
 # Create a virtual environment:
-python -m venv .venv
+python3 -m venv .venv
 
 # Activate the virtual environment:
 source .venv/bin/activate   # On Windows use `.venv\Scripts\activate`

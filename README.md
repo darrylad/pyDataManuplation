@@ -1,5 +1,5 @@
 
-# Data Manipulation tools
+# Data Manipulation Tools
 
 Utilities for manipulating data in batches using Python. Source files are never modified. Outputs are saved to `outputs/` in each project.
 
